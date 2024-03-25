@@ -63,6 +63,7 @@ if __name__ == "__main__":
         template = input("Question: ")
 
         if template == "exit":
+            print("Exiting...")
             break
 
         res = qa.invoke(template)
