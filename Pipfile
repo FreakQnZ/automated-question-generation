@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+langchain = "*"
+pinecone-client = "*"
+python-dotenv = "*"
+black = "*"
+huggingface-hub = "*"
+pandas = "*"
+openai = "*"
+langchain-openai = "*"
+langchain-pinecone = "*"
+sentence-transformers = "*"
+pypdf = "*"
+faiss-cpu = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
